@@ -13,3 +13,6 @@ dist/
 
 # Claude Code local-only
 .claude/settings.local.json
+
+# Workshop deck source — keep local only
+ws20260429-SparkVision-v1.md
