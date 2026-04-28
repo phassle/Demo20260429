@@ -18,12 +18,12 @@ Detect the target stack:
 
 - **Backend** (`backend/` exists, `.csproj` files present):
   - xUnit + FluentAssertions
-  - Place tests under `Sortiment.Tests/` mirroring the production
+  - Place tests under `<Project>.Tests/` mirroring the production
     folder
   - Mock external dependencies — see `.claude/skills/tdd/mocking.md`
     for guidelines (don't mock internal collaborators)
 
-- **Frontend** (`spark-showroom/` or `frontend/showroom/` with
+- **Frontend** (`showroom/` or `frontend/` with
   `vite.config.ts`):
   - Vitest + `@testing-library/react`
   - If Vitest isn't installed, add it as a dev dependency and wire

@@ -12,7 +12,7 @@ read-only access to the repo for cross-references.
 The subagent should check:
 
 - **Stop-rule areas touched?** (rendering pipeline, asset bridge,
-  database migrations, `frontend/showroom/` if backend-only sprint,
+  database migrations, `showroom/` if backend-only sprint,
   `unity/` always.) See the project root `AGENTS.md`.
 - **Tests cover every scenario in the .feature file?** Any scenario
   without a test is a gap. Reference `docs/bdd/<feature>.feature`.

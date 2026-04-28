@@ -20,5 +20,5 @@ format. Reuse domain terms from `docs/ubiquitous_language.md` (or
 End with: a one-line summary of what's covered and any unresolved
 questions about scenario boundaries.
 
-> Next: `/sv-bdd-2-red` — but read it first; it commits us to a
+> Next: `/bdd-2-red` — but read it first; it commits us to a
 > vertical-slicing loop, not "all tests red, then all green".

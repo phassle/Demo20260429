@@ -1,9 +1,9 @@
 # Agentic Development Workshop — 29 April 2026
 
-**Per Hassle · Monterro · Spark Vision**
+**Per Hassle · Monterro**
 *Your new colleague needs an onboarding.*
 
-This README is the participant cheat-sheet. The full deck lives in `ws20260429-SparkVision-v1.md`; everything below is what you actually need *during* the workshop.
+This README is the participant cheat-sheet — everything you actually need *during* the workshop.
 
 ---
 
@@ -26,7 +26,7 @@ This README is the participant cheat-sheet. The full deck lives in `ws20260429-S
 ### Afternoon — Spec-Driven Development with GitHub Spec Kit
 
 `/specify` → `/clarify` → `/plan` → `/tasks` → `/implement` → ship.
-One real `SV-` issue, end to end.
+One real backlog issue, end to end.
 
 ---
 
@@ -73,13 +73,13 @@ Finally: ln -s AGENTS.md CLAUDE.md
 **→ Save as `AGENTS.md` in the repo root, then `ln -s AGENTS.md CLAUDE.md`:**
 
 ````markdown
-# AGENTS.md — Spark Vision · Sortiment
+# AGENTS.md — Catalog service
 
 ## Tech stack
 - Backend: C# / .NET — solution in backend/
 - 3D / viewer: Unity (C#) — under unity/
 - Frontend (admin / configurator): React + TypeScript
-- Repo: GitHub · Issues: GitHub Issues (SV-prefix)
+- Repo: GitHub · Issues: GitHub Issues
 
 ## Commands
 - Build: cd backend && dotnet build
@@ -150,7 +150,7 @@ Finally: ln -s AGENTS.md CLAUDE.md
 
 ## Hands-on 2 — Plan Mode with questions (15 min)
 
-Pick a small real issue from your backlog (or grab one from `SV-` issues).
+Pick a small real issue from your backlog.
 
 **Step 1 — enter Plan Mode**
 
@@ -304,7 +304,7 @@ Typically catches **30%+ of unnecessary lines.**
 | **CLI** | Fast, deterministic ops: `gh`, `dotnet`, `git`, custom `sv-*` scripts |
 | **HTTP / API** | One-off integrations, internal services without an MCP server yet |
 
-Spark Vision wishlist: GitHub (`gh` + MCP) · Unity asset bridge (CLI) · Salgar/catalog DB (custom MCP) · Figma (official MCP) · PDF catalogs (CLI + skill) · Slack/Teams (community MCP) · Sortiment DB (Postgres MCP, read-only).
+Typical wishlist: GitHub (`gh` + MCP) · Unity asset bridge (CLI) · Catalog DB (custom MCP) · Figma (official MCP) · PDF catalogs (CLI + skill) · Slack/Teams (community MCP) · Domain DB (Postgres MCP, read-only).
 
 ---
 
@@ -372,7 +372,7 @@ npx skills@latest add mattpocock/skills/write-a-skill
 [ ] All Gherkin scenarios have a passing test
 [ ] Lint clean        (hook should already enforce)
 [ ] Build green       (hook should already enforce)
-[ ] /sv-pr-review subagent: 0 critical findings
+[ ] /pr-review subagent: 0 critical findings
 [ ] Visual diff (Unity): screenshot reviewed
 [ ] Stop-rule areas: untouched, OR explicitly approved
 [ ] Feature flag in place (default off)

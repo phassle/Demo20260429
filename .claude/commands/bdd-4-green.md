@@ -12,9 +12,9 @@ Make the red test from step 3 green. Use the **`tdd` skill** loop
 3. Confirm: this test is green, no previously-green test went red.
 4. Show me the diff for this scenario only.
 5. Stop. Wait for me to either:
-   - say "next" → restart the loop at `/sv-bdd-2-red` for the next
+   - say "next" → restart the loop at `/bdd-2-red` for the next
      scenario, or
-   - say "done" → all scenarios covered, move to `/sv-bdd-5-review`.
+   - say "done" → all scenarios covered, move to `/bdd-5-review`.
 
 If a test forces a design decision (which class owns this method?
 what should the return type be?) — surface the decision, don't guess.
