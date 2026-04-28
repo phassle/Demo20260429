@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local-only
+.claude/settings.local.json

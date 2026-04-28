@@ -396,20 +396,6 @@ If anything is `[ ]` — **she does not declare done.**
 
 ---
 
-## The next two weeks
-
-> **Goal: 1 June 2026 — the dev team works agentically.**
-
-| When | What | Owner |
-|------|------|-------|
-| **This week (28 Apr → 2 May)** | Every dev has an AGENTS.md for their main repo | Each dev |
-| **Mon 5 May** | 2-week agentic sprint kicks off — *only* the new workflow | Mikael |
-| **Fri 9 May** | Mid-sprint check-in: bottlenecks, blockers, AGENTS.md updates | Mikael + Per |
-| **Fri 16 May** | Sprint retro. Demo what shipped. | Whole team |
-| **Mon 1 June** | Production-grade or escalate. | Mikael + Fredrik T |
-
----
-
 ## Resources
 
 - **AGENTS.md spec** — agents.md
