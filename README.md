@@ -1,5 +1,7 @@
 # Agentic Development Workshop — 29 April 2026
 
+![Showroom kitchen configurator](docs/showroom.png)
+
 **Per Hassle · Monterro**
 *Your new colleague needs an onboarding.*
 
