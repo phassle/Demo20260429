@@ -108,7 +108,8 @@ function Kitchen({ config }: { config: Configuration }) {
   const hardwareColor = hardware?.swatch || '#B5984F'
 
   const layout = config.layout
-  const showSideRun = layout === 'u-shape' || layout === 'island'
+  const showSideRun =
+    layout === 'l-shape' || layout === 'u-shape' || layout === 'island'
   const showIsland = layout === 'island'
 
   return (
@@ -138,7 +139,7 @@ function Kitchen({ config }: { config: Configuration }) {
       {showSideRun && (
         <>
           <CabinetRun
-            position={[-3.4, 0, -2.6]}
+            position={[-4.95, 0, 1.5]}
             length={4}
             cabColor={cabColor}
             counterColor={counterColor}
